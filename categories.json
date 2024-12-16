@@ -1,17 +1,12 @@
 [
     {
-        "_id": { "$oid": "64b90df5c6a67e0001f940c1" },
+        "_id": { "$oid": "676046dc9095393c33740194" },
         "name": "Clothing",
         "description": "Apparel including shirts, pants, and dresses"
     },
     {
-        "_id": { "$oid": "64b90df5c6a67e0001f940c2" },
+        "_id": { "$oid": "676046dc9095393c33740195" },
         "name": "Electronics",
         "description": "Devices such as smartphones, laptops, and accessories"
-    },
-    {
-        "_id": { "$oid": "64b90df5c6a67e0001f940c3" },
-        "name": "Books",
-        "description": "Fictional, Literature, and Educational Books"
     }
 ]

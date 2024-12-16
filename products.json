@@ -3,27 +3,18 @@
         "_id": { "$oid": "675c4068b3327e944d3a87bb" },
         "name": "Graphic T-Shirt",
         "price": 15.99,
-        "category_id": { "$oid": "64b90df5c6a67e0001f940c1" },
+        "category_name": "Clothing",
         "description": "Cotton t-shirt with printed design",
-        "stock": 100,
+        "stock": 90,
         "tags": ["clothing", "tshirt", "casual"]
     },
     {
-        "_id": { "$oid": "675c4068b3327e944d3a87bc" },
+        "_id": { "$oid": "676046dc9095393c33740197" },
         "name": "Smartphone",
         "price": 699.99,
-        "category_id": { "$oid": "64b90df5c6a67e0001f940c2" },
+        "category_name": "Electronics",
         "description": "5G smartphone with 128GB storage",
         "stock": 50,
-        "tags": ["electronics", "smartphone", "mobile"]
-    },
-    {
-        "_id": { "$oid": "675c4068b3327e944d3a87bd" },
-        "name": "Science Fiction Novel",
-        "price": 12.5,
-        "category_id": { "$oid": "64b90df5c6a67e0001f940c3" },
-        "description": "Hardcover science fiction book",
-        "stock": 20,
-        "tags": ["books", "fiction", "novel"]
+        "tags": ["electronics", "smartphone", "mobile", "tech"]
     }
 ]

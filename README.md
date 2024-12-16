@@ -12,20 +12,12 @@ To get started, clone the project repository to your local machine:
 git clone https://github.com/Peroxidize/mongodb-foundational.git
 ```
 
-### Restore Collections
+### Execute the script
 
-The project requires restoring specific MongoDB collections. Use the following commands to restore the `products` and `categories` collections into the `ecommerce` database.
-
-#### Restore the `products` Collection
+Assuming you have mongodb installed on your machine you can simply run this command to get the exact tables in this repo
 
 ```bash
-mongorestore --db ecommerce --collection products ./products.bson
-```
-
-#### Restore the `categories` Collection
-
-```bash
-mongorestore --db ecommerce --collection categories ./categories.bson
+mongosh < script.js
 ```
 
 ## Additional Information
@@ -33,5 +25,3 @@ mongorestore --db ecommerce --collection categories ./categories.bson
 Ensure that MongoDB is installed and running on your system before executing the commands. You can check the MongoDB documentation for installation instructions if needed:
 
 - [MongoDB Installation Guide](https://www.mongodb.com/docs/manual/installation/)
-
-After restoring the collections, you can use tools like MongoDB Compass or the `mongo` shell to verify that the collections have been successfully imported into the `ecommerce` database.
